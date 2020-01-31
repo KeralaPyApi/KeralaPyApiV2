@@ -75,7 +75,7 @@ class Session:
         is_cdn: bool = False
     ):
         if not Session.notice_displayed:
-            print("Pyrogram v{}, {}".format(__version__, __copyright__))
+            print("KeralaPyApi v{}, {}".format(__version__, __copyright__))
             print("Licensed under the terms of the " + __license__, end="\n\n")
             Session.notice_displayed = True
 
