@@ -128,15 +128,15 @@ if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
     error_compiler.start()
 
 setup(
-    name="Pyrogram",
+    name="KeralaPyApiV2",
     version=version,
     description="Telegram MTProto API Client Library and Framework for Python",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://github.com/pyrogram",
-    download_url="https://github.com/pyrogram/pyrogram/releases/latest",
-    author="Dan",
-    author_email="dan@pyrogram.org",
+    url="https://github.com/KeralaPyApi",
+    download_url="https://github.com/KeralaPyApi/KeralaPyApi/releases/latest",
+    author="Mario",
+    author_email="KeralaPyApi@gmail.com",
     license="LGPLv3+",
     classifiers=[
         "Development Status :: 4 - Beta",
